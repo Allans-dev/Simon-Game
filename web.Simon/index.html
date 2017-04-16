@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet"  type="text/css" href="style.css">
+  <link type="text/font" href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+  <script type="text/javascript" src="javascript.js"></script>
+  <title>Simon Game</title>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="display">
+        <div class="content">
+        <button class="btn green-btn" onclick="green()"></button>
+        <audio id="green-audio" src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3"></audio>
+        <button class="btn red-btn" onclick="red()"></button>
+        <audio id="red-audio" src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3"></audio>
+        <button class="btn yellow-btn" onclick="yellow()"></button>
+        <audio id="yellow-audio" src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3"></audio>
+        <button class="btn blue-btn" onclick="blue()"></button>
+        <audio id="blue-audio" src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3"></audio>
+            <div class="panel">
+            <h1>Simon</h1>
+            <div class="counter">00</div>
+            <button class="start" onclick="start()">START</button>
+            <button class="mode" onclick="mode()">MODE</button>
+            <div class="On-back"><button class="on" onclick="on()">OFF</button></div>
+            </div>
+     </div>
+    </div>
+    </div>
+</body>
+</html>

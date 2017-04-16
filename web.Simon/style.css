@@ -1,0 +1,192 @@
+
+body {
+    background-image: url('http://i.imgur.com/LEo5mRr.jpg');
+    background-size: cover;
+    background-position: center;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    text-rendering: optimizeLegibility;
+}
+.container-fluid {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.display {
+    position: relative;
+    width: 45%;
+    height: 45%;
+    margin: 10% auto;
+    border-radius: 50%;
+    background-color: #2e2e2e;
+}
+.display:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+.content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #2e2e2e;
+    padding: 0;
+}
+/*-------------------------------------
+PATTERN BUTTONS
+-------------------------------------*/
+.btn {
+    position: relative;
+    width: 44%;
+    height: 44%;
+    float: left;
+    margin: 4% 2% 0 2%;
+}
+.green-btn,
+.green-btn:visited {
+    border-top-left-radius: 100%;
+    margin-left: 4%;
+    background-color: #00a526;
+    border-color: #00a526;
+    outline: none;
+}
+.green-btn:hover,
+.green-btn:active {
+  outline: none;
+}
+.red-btn,
+.red-btn:visited {
+    border-top-right-radius: 100%;
+    background-color: #ff2614;
+    border-color: #ff2614;
+    outline: none;
+}
+.red-btn:hover,
+.red-btn:active {
+    outline: none;
+}
+.yellow-btn,
+.yellow-btn:visited {
+    border-bottom-left-radius: 100%;
+    margin-left: 4%;
+    background-color: #ffcf06;
+    border-color: #ffcf06;
+    outline: none;
+}
+.yellow-btn:hover,
+.yellow-btn:active {
+    outline: none;
+}
+.blue-btn,
+.blue-btn:visited {
+    border-bottom-right-radius: 100%;
+    background-color: #007bd4;
+    border-color: #007bd4;
+    outline: none;
+}
+.blue-btn:hover,
+.blue-btn:active {
+    outline: none;
+}
+/*-------------------------------------
+PANEL
+-------------------------------------*/
+.panel {
+    position: relative;
+    border-radius: 50%;
+    border: 15px solid #2e2e2e;
+    height: 55%;
+    width: 55%;
+    margin-top: 19%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffca8d;
+
+}
+h1 {
+    margin: 15% 15%;
+    padding: 0;
+    position: absolute;
+    display: block;
+    text-align: center;
+    font-size: 350%;
+    font-weight: 300;
+}
+.start, .mode {
+    position: absolute;
+    float: left;
+    display: block;
+    border: outset;
+    text-decoration: none;
+    color: black;
+    font-size: 55%;
+    padding: 0;
+    outline: none;
+}
+.counter {
+    position: absolute;
+    float: left;
+    margin-top: 52%;
+    margin-left: 13%;
+    width: 15%;
+    height: 10%;
+    border-radius: 10px;
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(red, black); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(red, black); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(red, black); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(red, black); /* Standard syntax */
+    font-family: 'Orbitron', sans-serif;
+    color: #d07878;
+    text-align: right;
+    padding-right: 3%;
+    padding-top: 12px;
+    padding-bottom: 0px;
+}
+.start {
+    margin-top: 52%;
+    margin-left: 45%;
+    width: 15%;
+    height: 15%;
+    border-radius: 50%;
+    background-color: #00a200;
+    border-color: #00a200;
+}
+.mode {
+    margin-top: 52%;
+    margin-left: 70%;
+    width: 15%;
+    height: 15%;
+    border-radius: 50%;
+    background-color: #8c4ed3;
+    border-color: #8c4ed3;
+}
+.On-back {
+    margin-top: 75%;
+    margin-left: 35%;
+    width: 25%;
+    height: 10%;
+    background-color: black;
+    border-radius: 5px;
+    position: absolute;
+    float: left;
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 55%;
+    padding: 0;
+}
+.On-back button {
+  width: 45%;
+  height: 92%;
+  margin: 1%;
+  margin-left: 2%;
+  border-radius: 5px;
+  border: none;
+  background-color: #3498db;
+  outline: none;
+}
+.on:active,
+.on:visited {
+  outline: none;
+}
