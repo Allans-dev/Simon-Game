@@ -1,0 +1,30 @@
+
+@media only screen and (max-width: 1040px) {
+    body {
+        font-size: 16px;
+    }
+    .On-back button {
+        padding: 2px;
+    }
+    .counter {
+        padding-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 845px) {
+    .display {
+        height: 60%;
+        width: 60%;
+    }
+}
+    
+@media only screen and (max-width: 665px) {
+    .display {
+        height: 80%;
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+}
